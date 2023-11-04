@@ -1,0 +1,89 @@
+/* heights and widths */
+
+.h-screen {
+    height: 100vh;
+}
+
+.w-400 {
+    width: 400px;
+}
+
+
+i{
+    cursor: pointer;
+    font-size: 30px;
+}
+h1,p{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+/*input*/
+
+input {
+    height: 40px;
+    border: 2px solid gray;
+    width: 100%;
+    padding-left: 20px;
+}
+
+/* card */
+.card {
+    border: 2px solid gray;
+    box-shodow: 0 0 2px gray;
+    border-radius: 0 !important;
+}
+
+/*text sizes*/
+.text-2x {
+    font-size: 30px !important;
+}
+
+.text-xl {
+    font-size: 25px !important;
+}
+
+.text-lg {
+    font-size: 20px !important;
+}
+
+.text-md {
+    font-size: 18px !important;
+}
+.underline{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+/* buttons */
+.primary-btn {
+    border: 2px solid gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(104, 166, 207);
+    font-size: 18px;
+
+}
+.disabled-btn {
+   background-color: gray !important;
+   color:white;
+   border:none !important;
+   border-radius: 0 !important;
+   padding:10px 20px;
+   cursor:not-allowed;
+}
+button{
+    border-radius: 0 !important;
+
+}
+.secondary-btn {
+    border: none;
+    padding: 10px 20px;
+   cursor: pointer;
+    color: white;
+    background-color: var(--secondary) !important;
+}
+.bus-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
